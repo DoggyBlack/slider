@@ -1,2 +1,2 @@
 # slider
-Place for Vova
+Place for Vovo

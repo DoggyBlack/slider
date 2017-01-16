@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="main.css">
-</head>
-<body>
-	<div class="background"></div>
-	<div class="slider">
-		<div class="inner">
-			<div class="slides">
-				<div class="first">
-					<div class="first-inner"></div>
-					<center>
-						<a class="first-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum suscipit impedit error itaque debitis aspernatur repellendus quas aliquam ad consectetur aperiam earum qui quibusdam ex, molestiae consequuntur culpa quia, voluptatem!</a>
-					</center>
-				</div>
-				<div class="second">
-					<div class="second-inner"></div>
-				</div>
-				<div class="third">
-					<div class="third-inner"></div>
-				</div>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Slider </title>
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="slider">
+			<div class="slider__window">
+				<div class="slider__item slider__elem1" id="src"></div>
+				<div class="slider__item slider__elem2" id="src"></div>
+				<div class="slider__item slider__elem3" id="src"></div>
 			</div>
 		</div>
-		<div class="left"></div>
-		<div class="right"></div>
-	</div>
+		<div class="arrow-left" onclick="slider.left();">left</div>
+		<div class="arrow-right" onclick="slider.right();">right</div>
 
-<script src="main.js"></script>
-</body>
+		<script src="main.js"></script>
+
+	</body>
 </html>
